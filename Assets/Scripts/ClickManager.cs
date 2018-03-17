@@ -27,7 +27,7 @@ public class ClickManager : MonoBehaviour {
 	void Update () {
         delayBetween = 1f / cpsToAdd; 
 
-		if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetKey(KeyCode.C)) && !gm.isInShop)
+		if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && !gm.isInShop)
         {
             if (!EventSystem.current.IsPointerOverGameObject())
             gm.OnClick(false, linesPerClick);

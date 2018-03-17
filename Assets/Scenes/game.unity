@@ -718,7 +718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -194.44226}
+  m_AnchoredPosition: {x: 0, y: -194.43036}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &623524285
@@ -906,7 +906,7 @@ MonoBehaviour:
   - title: Server Rack
     description: More computers, All in one!
     effect: +8 lines per second
-    effectCol: {r: 0, g: 0.8586207, b: 0.8586207, a: 1}
+    effectCol: {r: 0.506278, g: 0.8586207, b: 0.42299697, a: 1}
     image: {fileID: 21300012, guid: ce998e40e9150174bbe6ea92c573f70e, type: 3}
     cost: 80000
     cpsInc: 8
@@ -915,7 +915,7 @@ MonoBehaviour:
   - title: Notepad
     description: All you could ever write, now only $infinity
     effect: +20 lines per second
-    effectCol: {r: 0.0063133934, g: 0.8586207, b: 0.5578065, a: 1}
+    effectCol: {r: 0.11364098, g: 0.6285534, b: 0.8586207, a: 1}
     image: {fileID: 21300014, guid: ce998e40e9150174bbe6ea92c573f70e, type: 3}
     cost: 999999
     cpsInc: 20
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 340109767}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.84998846
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
